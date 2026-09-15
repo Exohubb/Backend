@@ -2,6 +2,7 @@
   "name": "node-backend",
   "version": "1.0.0",
   "description": "learn backend",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -13,5 +14,8 @@
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "mongoose": "^9.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
